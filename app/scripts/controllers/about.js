@@ -41,17 +41,17 @@ angular.module('jikoshokaiApp')
 
     $scope.showName = function(){
       $scope.name = 'Koji Nishikiori';
-      $('#name').remove();
+      //$('#name').remove();
     };
 
     $scope.work = function(){
-      $scope.work = 'MERY';
-      $('#work').remove();
+      $scope.work = 'MERY (http://mery.jp)';
+      //$('#work').remove();
     };
 
     $scope.univ = function(){
-      $scope.name = 'Waseda Univ';
-      $('#univ').remove();
+      $scope.univ = 'Waseda Univ';
+      //$('#univ').remove();
     };
 
     $scope.awesomeThings = [
